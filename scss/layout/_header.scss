@@ -1,0 +1,26 @@
+.top-level-head {
+  @extend %clear;
+  border-bottom: solid 3px #4d4d4d;
+
+  h1 {
+    font-size: 25px;
+    float: left;
+  }
+
+  img {
+    @include area(30px, 29px);
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+nav {
+  ul {
+    @extend %clear;
+  }
+}
